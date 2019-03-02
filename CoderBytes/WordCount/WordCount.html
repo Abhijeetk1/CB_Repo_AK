@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <script>
+/*
+Have the function WordCount(str) take the str string parameter being passed and return the number of words the string contains (e.g. "Never eat shredded wheat or cake" would return 6). Words will be separated by single spaces. 
+*/
+
+function WordCount(str) 
+{ 
+
+	var count = 1;
+
+		for( i = 0; i <= str.length-1; i++)
+		{
+			if (" ".indexOf(str[i]) >= 0)
+			{
+			  count ++;      
+			}
+		}
+			
+	   
+	return count;
+}
+
+alert(WordCount("yo niggas lets hit the club tonight"))
+
+    </script>
+  </body>
+</html>
+

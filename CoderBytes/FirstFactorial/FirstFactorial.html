@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+
+    <script>
+
+/*
+Have the function FirstFactorial(num) take the num parameter being passed and return the factorial of it. For example: if num = 4, then your program should return (4 * 3 * 2 * 1) = 24. For the test cases, the range will be between 1 and 18 and the input will always be an integer. 
+*/
+
+function SecondFactorial(num) 
+{ 
+  var f = 1;
+  var i;
+  if (num == 0)
+  {
+      f = 1;
+  }
+  else if (num < 0)
+  {
+      f = "Not Defined";
+  }
+  else
+  {
+    f = num * SecondFactorial(num -1); 
+  }
+  return f;
+}
+alert(SecondFactorial(5);
+
+
+    </script>
+
+  </body>
+</html>
